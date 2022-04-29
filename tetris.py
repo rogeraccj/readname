@@ -333,7 +333,7 @@ class Tetris(object):
         """
         # Clean the screen, draw the board and draw
         # all tetris blocks
-        self.screen.fill(constants.BLACK)
+        self.screen.fill(constants.BLUE)
         self.draw_board()
         for blk in self.blk_list:
             blk.draw()
